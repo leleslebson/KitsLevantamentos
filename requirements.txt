@@ -1,6 +1,15 @@
-streamlit
-pandas
-os
-requests
-FPDF
-tempfile
+# Core
+streamlit==1.44.1
+
+# Data processing
+pandas==2.2.3
+numpy==1.24.3
+
+# Visualization
+matplotlib==3.8.0
+plotly==5.18.0
+altair==5.2.0
+
+# Optional (só se realmente necessário)
+openai==1.12.0
+python-dotenv==1.0.0
